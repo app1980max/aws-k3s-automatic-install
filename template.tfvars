@@ -16,7 +16,7 @@ k3s_agent_count = 2
 k3s_server_count = 3
 
 k3s_server_size = "t2.medium"
-k3s_agent_size = "t2.xlarge"
+k3s_agent_size = "t2.medium"
 
 #####################################################################
 # If you want to define your own CIDR ranges for your VPCs/subnets! #
