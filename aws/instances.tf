@@ -47,7 +47,7 @@ resource "random_string" "k3s_token" {
 
 resource "aws_s3_bucket" "k8s_data_bucket" {
   bucket = var.key_s3_bucket_name
-  acl    = "private"
+  #acl    = "private"
   force_destroy = true
   tags = {
     Name = "backups-cluster-prod2"
