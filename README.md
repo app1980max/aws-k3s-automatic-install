@@ -34,6 +34,7 @@ K3s is a lightweight Kubernetes distribution created by Rancher Labs, and it is 
 
 🚀 Deployment Options
 ```
+create bucket "backups-cluster-prod"
 terraform init -backend-config=backends/s3.tfvars
 terraform plan -var-file="template.tfvars"
 terraform apply -var-file=template.tfvars -auto-approve
