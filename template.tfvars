@@ -12,7 +12,7 @@ key_s3_bucket_name = "backups-cluster-prod"
 # If you want to change the initial number of nodes in your ASGs #
 ##################################################################
 
-k3s_agent_count = 2
+k3s_agent_count = 1
 k3s_server_count = 3
 
 k3s_server_size = "t2.medium"
